@@ -578,3 +578,9 @@ extension NSURLRequest : _StructTypeBridgeable {
         return URLRequest._unconditionallyBridgeFromObjectiveC(self)
     }
 }
+
+extension NSURLRequest : _HasCustomAnyHashableRepresentation {
+    public func _toCustomAnyHashable() -> AnyHashable? {
+        return AnyHashable(self as URLRequest)
+    }
+}
