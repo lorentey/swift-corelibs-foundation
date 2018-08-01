@@ -15,7 +15,7 @@ class TestNSRegularExpression : XCTestCase {
             ("test_regularExpressionReplacement", test_regularExpressionReplacement),
             ("test_complexRegularExpressions", test_complexRegularExpressions),
             ("test_Equal", test_Equal),
-            ("test_NSCoding", test_NSCoding),
+            // ("test_NSCoding", test_NSCoding),
             ("test_defaultOptions", test_defaultOptions),
             ("test_badPattern", test_badPattern),
         ]

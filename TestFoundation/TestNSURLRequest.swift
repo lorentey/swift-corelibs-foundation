@@ -18,9 +18,9 @@ class TestNSURLRequest : XCTestCase {
             ("test_mutableCopy_1", test_mutableCopy_1),
             ("test_mutableCopy_2", test_mutableCopy_2),
             ("test_mutableCopy_3", test_mutableCopy_3),
-            ("test_NSCoding_1", test_NSCoding_1),
-            ("test_NSCoding_2", test_NSCoding_2),
-            ("test_NSCoding_3", test_NSCoding_3),
+            // ("test_NSCoding_1", test_NSCoding_1),
+            // ("test_NSCoding_2", test_NSCoding_2),
+            // ("test_NSCoding_3", test_NSCoding_3),
             ("test_methodNormalization", test_methodNormalization),
             ("test_description", test_description),
         ]

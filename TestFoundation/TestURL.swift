@@ -53,7 +53,7 @@ class TestURL : XCTestCase {
             ("test_URLByResolvingSymlinksInPath", test_URLByResolvingSymlinksInPath),
             ("test_reachable", test_reachable),
             ("test_copy", test_copy),
-            ("test_itemNSCoding", test_itemNSCoding),
+            // ("test_itemNSCoding", test_itemNSCoding),
             ("test_dataRepresentation", test_dataRepresentation),
             ("test_description", test_description),
             ("test_AnyHashable", test_AnyHashable),

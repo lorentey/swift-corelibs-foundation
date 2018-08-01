@@ -15,7 +15,7 @@ class TestNSUUID : XCTestCase {
             ("test_InvalidUUID", test_InvalidUUID),
             ("test_uuidString", test_uuidString),
             ("test_description", test_description),
-            ("test_NSCoding", test_NSCoding),
+            // ("test_NSCoding", test_NSCoding),
         ]
     }
     

@@ -19,7 +19,7 @@ class TestNSPredicate: XCTestCase {
             ("test_filterNSMutableSet", test_filterNSMutableSet),
             ("test_filterNSOrderedSet", test_filterNSOrderedSet),
             ("test_filterNSMutableOrderedSet", test_filterNSMutableOrderedSet),
-            ("test_NSCoding", test_NSCoding),
+            // ("test_NSCoding", test_NSCoding),
             ("test_copy", test_copy),
         ]
     }

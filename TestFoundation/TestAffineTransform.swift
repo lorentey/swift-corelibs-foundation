@@ -32,7 +32,7 @@ class TestAffineTransform : XCTestCase {
             ("test_rotation_compose", test_rotation_compose),
             ("test_translation_and_rotation", test_translation_and_rotation),
             ("test_Equal", test_Equal),
-            ("test_NSCoding", test_NSCoding),
+//            ("test_NSCoding", test_NSCoding),
         ]
     }
     

@@ -19,7 +19,7 @@ class TestURLResponse : XCTestCase {
             ("test_suggestedFilename_2", test_suggestedFilename_2),
             ("test_suggestedFilename_3", test_suggestedFilename_3),
             ("test_copywithzone", test_copyWithZone),
-            ("test_NSCoding", test_NSCoding),
+            // ("test_NSCoding", test_NSCoding),
         ]
     }
     
@@ -132,7 +132,7 @@ class TestHTTPURLResponse : XCTestCase {
                    ("test_MIMETypeAndCharacterEncoding_2", test_MIMETypeAndCharacterEncoding_2),
                    ("test_MIMETypeAndCharacterEncoding_3", test_MIMETypeAndCharacterEncoding_3),
                    
-                   ("test_NSCoding", test_NSCoding),
+                   // ("test_NSCoding", test_NSCoding),
         ]
     }
     

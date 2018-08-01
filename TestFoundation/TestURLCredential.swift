@@ -13,7 +13,7 @@ class TestURLCredential : XCTestCase {
         return [
                    ("test_construction", test_construction),
                    ("test_copy", test_copy),
-                   ("test_NSCoding", test_NSCoding)
+                   // ("test_NSCoding", test_NSCoding)
         ]
     }
     
