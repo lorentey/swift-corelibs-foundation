@@ -1313,7 +1313,7 @@ open class NSDateComponents : NSObject, NSCopying, NSSecureCoding {
         if NSDateComponentUndefined == yy {
             yy = 0
         }
-        return calHash + (32832013 * (y + yy) + 2678437 * m + 86413 * d + 3607 * h + 61 * mm + s) + (41 * weekOfYear + 11 * weekOfMonth + 7 * weekday + 3 * weekdayOrdinal + quarter) * (1 << 5)
+        return calHash &+ (32832013 &* (y &+ yy) &+ 2678437 &* m &+ 86413 &* d &+ 3607 &* h &+ 61 &* mm &+ s) &+ (41 &* weekOfYear &+ 11 &* weekOfMonth &+ 7 &* weekday &+ 3 &* weekdayOrdinal &+ quarter) &* (1 << 5)
     }
     
     open override func isEqual(_ object: Any?) -> Bool {
